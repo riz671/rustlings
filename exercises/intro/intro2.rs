@@ -2,8 +2,9 @@
 // Make the code print a greeting to the world.
 // Execute `rustlings hint intro2` for a hint.
 
-// I AM NOT DONE
-
 fn main() {
-    println!("Hello {}!");
+    println!("Hello, I am Rizwan Choudhury ");
+    println!("and I am learning Rust from scratch!");
+    print!("Hello, I am Rizwan Choudhury ");
+    print!("and I am learning Rust from scratch!");
 }
