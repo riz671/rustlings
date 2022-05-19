@@ -9,12 +9,18 @@
 // the price of an order of apples given the quantity bought. No hints this time!
 
 // Put your function here!
-fn calculate_apple_price (appleAmount: i32) -> i32 {
-    let applePrice = if (appleAmount <= 40) { 2 } else { 1 };
-    return appleAmount * applePrice;
-}
+// fn calculate_apple_price {
 
 // Don't modify this function!
+
+fn calculate_apple_price(apples: u32) -> u32 {
+    if apples > 40 {
+        apples
+    } else {
+        apples * 2
+    }
+}
+
 #[test]
 fn verify_test() {
     let price1 = calculate_apple_price(35);
