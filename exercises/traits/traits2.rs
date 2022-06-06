@@ -10,7 +10,6 @@
 // No boiler plate code this time,
 // you can do this!
 
-// I AM NOT DONE
 // What is `Self` return value declaration in rust??
 
 trait AppendBar {
