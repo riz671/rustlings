@@ -6,7 +6,6 @@
 mod tests {
     #[test]
     fn you_can_assert_eq() {
-        let
-        assert_eq!();
+        assert_eq!(true, true);
     }
 }
